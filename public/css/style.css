@@ -704,7 +704,7 @@ h1 {
       margin-bottom:50px;
   }
 .homepage{
-  background-image: url('bg.jpg');
+  background-color:#000000;
   background-repeat: no-repeat;
   width:85%;
   height:600px;
