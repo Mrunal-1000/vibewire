@@ -4,6 +4,7 @@
           font-family: 'monospace';
           background-color: black;
           color: #ffffff;
+          overflow-x: hidden;
           
           margin: 0;
           padding: 0;
@@ -251,4 +252,34 @@
         from { opacity: 0; transform: translateY(20px); }
         to { opacity: 1; transform: translateY(0); }
     }
+    @media (max-width: 430px) {
+        body{
+            font-size: 0.8rem;
+        }
+        h1{
+            font-size: 4em;
+        }
+        a{
+            padding:15px 10px;
+        }
+        .btn{
+            font-size: 0.7rem;
+        }
+        .blog-tile img {
+            
+            height: 180px;
+           
+
+    }
+    .blog-tile h3 {
+        font-size: 13px;
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+    .blog-tile{
+        height:280px;
+        width:220px;
+    }
+}
+
     
