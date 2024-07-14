@@ -76,7 +76,7 @@
         /* Blog Tile Styles */
         .blog-tile {
             width: 300px;
-            height: 400px;
+            height: 420px;
             background: rgba( 255, 255, 255, 0.1 );
             box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
             backdrop-filter: blur( 5px );
@@ -99,7 +99,7 @@
   
         .blog-tile img {
             width: 100%;
-            height: 270px;
+            height: 300px;
             object-fit: cover;
             border-radius: 10px 10px 0 0;
             transition: transform 0.3s ease;
@@ -251,10 +251,8 @@
           from { opacity: 0; transform: translateY(20px); }
           to { opacity: 1; transform: translateY(0); }
       }
-      @media (max-width: 430px) {
-        body{
-            font-size: 0.8rem;
-        }
+      @media (max-width: 450px) {
+        
         h1{
             font-size: 4em;
         }
@@ -266,7 +264,7 @@
         }
         .blog-tile img {
             
-            height: 180px;
+            height: 300px;
            
 
     }
@@ -276,7 +274,12 @@
         margin-bottom: 5px;
     }
     .blog-tile{
-        height:280px;
-        width:220px;
+        height:370px;
+        width:270px;
+    }
+    header ul li a {
+        
+        padding: 10px 5px;
+        
     }
 }
