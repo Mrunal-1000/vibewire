@@ -43,7 +43,7 @@ header{
     text-decoration: none;
     letter-spacing: 0.15em;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 1.5em;
     display: inline-block;
     padding: 15px 20px;
     position: relative;
@@ -143,7 +143,7 @@ header{
 h1 {
     
     text-align: center;
-    font-size: 7em;
+    font-size: 10vw;
     margin:1em auto;
     color:#ffffff;
     -webkit-text-stroke-width: 4px rgb(26, 62, 242);   

@@ -60,7 +60,7 @@ app.post('/upload', upload.fields([{ name: 'blogText' }, { name: 'blogImage' }])
     if (fs.existsSync(blogsFilePath)) {
         blogs = JSON.parse(fs.readFileSync(blogsFilePath));
     }
-    blogs.push(blog);
+    blogs.unshift(blog);
     fs.writeFileSync(blogsFilePath, JSON.stringify(blogs, null, 2));
 
     // Create the individual blog HTML file
