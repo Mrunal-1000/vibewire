@@ -22,7 +22,7 @@ header{
   background-color: #000;
 }
   ul { 
-    margin: 10px auto 0; 
+    margin: 10px auto ; 
     padding: 0; 
     list-style: none; 
     display: table;
